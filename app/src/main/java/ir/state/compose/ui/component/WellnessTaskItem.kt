@@ -31,7 +31,7 @@ fun WellnessTaskItem(
             text = taskName
         )
 
-        IconButton(onClick = { onClose }) {
+        IconButton(onClick = onClose) {
             Icon(
                 imageVector = Icons.Default.Close,
                 contentDescription = "Close"
